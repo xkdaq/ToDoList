@@ -32,7 +32,7 @@ public class TestActivity extends AppCompatActivity {
         List<CheckListEntity> allCheckList1 = GreenDaoController.getInstance().getAllCheckList();
         XLog.e(allCheckList1.toString());
         CheckListEntity oneCheckList = GreenDaoController.getInstance().getOneCheckList(7);
-        oneCheckList.setC_name("hahahaha");
+        oneCheckList.setC_name("想要去的地方6");
         GreenDaoController.getInstance().updateCheckList(oneCheckList);
         List<CheckListEntity> allCheckList2 = GreenDaoController.getInstance().getAllCheckList();
         XLog.e(allCheckList2.toString());
