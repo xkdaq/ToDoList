@@ -16,7 +16,7 @@ public class TestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //        CheckListEntity checkListEntity1 = new CheckListEntity();
+//        CheckListEntity checkListEntity1 = new CheckListEntity();
 //        checkListEntity1.setC_name("想要吃的东西4");
 //        CheckListEntity checkListEntity2 = new CheckListEntity();
 //        checkListEntity2.setC_name("想要去的地方5");

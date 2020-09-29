@@ -58,21 +58,21 @@ public class GreenDaoController {
     }
 
     /**
-     * 删除
+     * 删除清单
      */
     public void deleteCheck(long id) {
         checkListEntityDao.deleteByKey(id);
     }
 
     /**
-     * 查询
+     * 查询清单
      */
     public List<CheckListEntity> getAllCheckList() {
         return checkListEntityDao.queryBuilder().list();
     }
 
     /**
-     * 查询单个
+     * 查询单个清单
      * */
     public CheckListEntity getOneCheckList(int id) {
         List<CheckListEntity> list = checkListEntityDao.queryBuilder().where(CheckListEntityDao.Properties.Id.eq(id)).list();
@@ -83,7 +83,7 @@ public class GreenDaoController {
     }
 
     /**
-     * 修改
+     * 修改清单
      */
     public void updateCheckList(CheckListEntity checkListEntity) {
         checkListEntityDao.update(checkListEntity);
