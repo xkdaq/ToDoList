@@ -1,4 +1,4 @@
-package com.today.todolist;
+package com.today.todolist.activity;
 
 import android.os.Bundle;
 
@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.today.dao.GreenDaoController;
 import com.today.dao.entity.CheckListEntity;
+import com.today.todolist.R;
 import com.today.todolist.adapter.CheckAdapter;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.today.todolist;
+package com.today.todolist.activity;
 
 import android.os.Bundle;
 
@@ -16,16 +16,7 @@ public class TestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        CheckListEntity checkListEntity1 = new CheckListEntity();
-//        checkListEntity1.setC_name("想要吃的东西4");
-//        CheckListEntity checkListEntity2 = new CheckListEntity();
-//        checkListEntity2.setC_name("想要去的地方5");
-//        CheckListEntity checkListEntity3 = new CheckListEntity();
-//        checkListEntity3.setC_name("想要看的电影6");
-//
-//        GreenDaoController.getInstance().insert(checkListEntity1);
-//        GreenDaoController.getInstance().insert(checkListEntity2);
-//        GreenDaoController.getInstance().insert(checkListEntity3);
+
 
 
         // GreenDaoController.getInstance().deleteCheck(8);
